@@ -1,0 +1,28 @@
+img{
+    width: 25px;
+    height: 25px;
+}
+.active{
+    color: #226ebd;
+    background-color: red;
+}
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    img{
+        display: none;
+    }
+    .contact-btn span{
+        font-size: 14px;
+    }
+    
+}
+/*mobile*/
+@media screen and (max-width: 768px){
+    img{
+        display: none;
+    }
+    .contact-btn span{
+        font-size: 12px;
+        
+    }
+}

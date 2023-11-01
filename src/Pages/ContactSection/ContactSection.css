@@ -1,0 +1,90 @@
+.contact-container{
+    display: flex;
+    background-color: #f5fcff;
+    margin-top: 6.25rem;
+    padding: 6rem 6rem 6rem 13rem;
+}
+.contact-section{
+    margin-right: 7rem;
+}
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.contact-title h6,h3{
+    font-weight: 600;
+}
+.info-field{
+    background-color: transparent;
+    border: 1px solid gray;
+    opacity: 0.5;
+}
+.contact-img{
+    margin-top: 5rem;
+}
+.contact-img img{
+    width: 500px;
+    height: 400px;
+}
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit-btn span{
+    text-transform: capitalize;
+}
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .contact-section{
+        margin: -20px 40px 0px -9rem;
+    }
+    .contact-img img{
+        display: inline;
+        width: 300px;
+        height: 300px;
+    }
+    .submit-btn{
+        margin-bottom: -40px;
+    }
+    .submit-box{
+        max-width: 300px;
+        margin-top: 38rem;
+        margin-left: -6.25rem;
+    }
+    .submit-box img{
+        display: inline;
+    }
+}
+/*mobile*/
+@media screen and (max-width: 768px){
+    .contact-section{
+        margin-left: -9.5rem;
+        margin-top: -20px;
+    }
+    .contact-title h6{
+        font-size: 12px;
+    }
+    .contact-title h3{
+        font-size: 16px;
+    }
+    .contact-img img{
+        display: none;
+    }
+    .submit-btn{
+        margin-bottom: -50px;
+    }
+    .submit-btn span{
+        font-size: 12px;
+    }
+    .submit-box{
+        max-width: 300px;
+        margin-top: 34rem;
+        margin-left: -50px;
+    }
+    .submit-box img{
+        display: inline;
+    }
+}

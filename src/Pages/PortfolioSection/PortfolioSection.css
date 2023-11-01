@@ -1,0 +1,86 @@
+.portfolio-container{
+    padding-top: 5rem;
+    padding-left: 6rem;
+}
+.portfolio-container h6{
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.portfolio-section{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6rem;
+    align-items: center;
+}
+.portfolio-section h3{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.github-btn span{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.gitAcc-link{
+    color: #fff;
+    text-decoration: none;
+}
+.gitAcc-link:hover{
+    color: #191919;
+}
+.project-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+    margin: 50px 80px 0px 10px;
+}
+.card-content{
+    background-color: #f5fcff;
+}
+.link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #226ebd;
+}
+.cardImage{
+    opacity: 0.3;
+}
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .portfolio-container{
+        padding-left: 3.5rem;
+    }
+    .portfolio-section{
+        margin-right: 3.5rem;
+    }
+    .project-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+/*mobile*/
+@media screen and (max-width: 768px){
+    .portfolio-container{
+        padding-left: 2rem;
+    }
+    .portfolio-container h6{
+        font-size: 12px;
+    }
+    .portfolio-section{
+        margin-right: 2rem;
+        align-items: center;
+    }
+    .portfolio-section h3{
+        font-size: 16px;
+    }
+    .github-btn span{
+        font-size: 12px;
+    }
+    .project-div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+}
