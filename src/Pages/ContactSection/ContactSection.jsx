@@ -52,7 +52,9 @@ function ContactSection() {
   };
 
   return (
-    <div className="contact-container" id='contact'>
+    <div className="home-parent-container">
+      <div className="home-sub-container">
+      <div className="contact-container" id='contact'>
       <div className="contact-section">
         <div className="contact-title">
           <h6>Get in Touch</h6>
@@ -87,6 +89,7 @@ function ContactSection() {
               placeholder="Type your message..."
               multiline
               rows={4}
+              className='textarea-width'
             />
             <br />
             <div className="submit-btn">
@@ -114,6 +117,8 @@ function ContactSection() {
       </div>
       <div className="contact-img">
         <img src={contact} alt="contact-img" />
+      </div>
+    </div>
       </div>
     </div>
   );

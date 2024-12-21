@@ -10,12 +10,22 @@ export default function AchievementSection() {
         Aos.init({duration: 2000})
     },[])
     return (
-        <div className='achievement-container'>
+        <div className="home-parent-container">
+            <div className="home-sub-container">
+            <div className='achievement-container'>
             <h3>my achievements</h3>
-            <div className="achi-img">
+            <div className="certi-img-div">
+            <div className="certi-one">
             <img src={certi1} alt='achi-img' data-aos='fade-up' data-aos-duration='7500'/>
+            </div>
+            <div className="certi-two">
             <img src={certi2} alt='achi-img' data-aos='fade-up' data-aos-duration='5000'/>
+            </div>
+            <div className="certi-three">
             <img src={certi3} alt='achi-img' data-aos='fade-up' data-aos-duration='2500'/>
+            </div>
+            </div>
+        </div>
             </div>
         </div>
     )

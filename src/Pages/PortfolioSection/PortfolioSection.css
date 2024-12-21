@@ -1,6 +1,5 @@
 .portfolio-container{
-    padding-top: 5rem;
-    padding-left: 6rem;
+    padding: 50px 0;
 }
 .portfolio-container h6{
     font-weight: 600;
@@ -10,7 +9,6 @@
 .portfolio-section{
     display: flex;
     justify-content: space-between;
-    margin-right: 6rem;
     align-items: center;
 }
 .portfolio-section h3{
@@ -33,7 +31,7 @@
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     gap: 30px;
-    margin: 50px 80px 0px 10px;
+    margin-top: 50px;
 }
 .card-content{
     background-color: #f5fcff;
@@ -48,28 +46,21 @@
     opacity: 0.3;
 }
 /*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    .portfolio-container{
-        padding-left: 3.5rem;
-    }
-    .portfolio-section{
-        margin-right: 3.5rem;
-    }
+@media screen and (min-width: 769px) and (max-width: 1023px){
     .project-div{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .project-div .card-width{
+        max-width: 100%;
+    }
 }
 /*mobile*/
 @media screen and (max-width: 768px){
-    .portfolio-container{
-        padding-left: 2rem;
-    }
     .portfolio-container h6{
         font-size: 12px;
     }
     .portfolio-section{
-        margin-right: 2rem;
         align-items: center;
     }
     .portfolio-section h3{
@@ -79,8 +70,9 @@
         font-size: 12px;
     }
     .project-div{
-        display: flex;
-        flex-direction: column;
-        margin-left: 30px;
+        grid-template-columns: 1fr;
+    }
+    .project-div .card-width{
+        max-width: 100%;
     }
 }

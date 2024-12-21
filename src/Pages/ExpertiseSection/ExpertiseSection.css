@@ -1,30 +1,33 @@
+.expertise-container{
+    padding: 100px 30px;
+}
 .expertise-container h6{
-    padding-top: 6.25rem;
     font-weight: 600;
     text-transform: capitalize;
-    margin-left: 6.25rem;
 }
 .expertise-container h3{
     font-weight: 600;
     text-transform: capitalize;
-    margin-left: 6.25rem;
 }
 .expertise-container p{
-    margin: 10px 0px 60px 6.25rem;
+    font-size: 16px;
     opacity: 0.8;
 }
 .expertise-section{
     display: flex;
-    justify-content: space-between;
-    margin: 0px 6.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .expertise-section h2{
-    font-size: 18px;
+    font-size: 16px;
     text-transform: capitalize;
     font-weight: 600;
     margin-bottom: 20px;
 }
 .logo-div{
+    width: 220px;
     background-color: #f5fcff !important;
 }
 .logo-div:hover{
@@ -46,28 +49,7 @@
     margin-bottom: 15px;
 }
 /*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    .expertise-container h6{
-        margin-left: 3.5rem;
-    }
-    .expertise-container h3{
-        margin-left: 3.5rem;
-    }
-    .expertise-container p{
-        margin-left: -0.5px;
-        padding-left: 60px;
-     }
-    .expertise-section{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 30px;
-        margin-left: -5px;
-        padding-left: 80px;
-        margin-top: -10px;
-    }
-    .expertise-section h2{
-        font-size: 16px;
-    }
+@media screen and (min-width: 769px) and (max-width: 1023px){
     .logo-div img{
         display: inline;
     }
@@ -75,31 +57,16 @@
 /*mobile*/
 @media  screen and (max-width: 768px) {
     .expertise-container{
-        margin-top: -20px;
+        padding: 80px 0;
     }
     .expertise-container h6{
-        font-size: 12px;
-        margin-left: 2rem;
+        font-size: 16px;
     }
     .expertise-container h3{
-        font-size: 16px;
-        margin-left: 2rem;
+        font-size: 24px;
     }
-    .expertise-container p{
-       margin-left: -0.5px;
-       padding-left: 30px;
-       font-size: 12px;
-    }
-    .expertise-section{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 30px;
-        margin-top: -10px;
-        margin-left: -5px;
-        padding-left: 50px;
-    }
-    .expertise-section h2{
-        font-size: 14px;
+    .expertise-container p,.expertise-section h2{
+       font-size: 14px;
     }
     .logo-div{
        min-width: 150px !important; 

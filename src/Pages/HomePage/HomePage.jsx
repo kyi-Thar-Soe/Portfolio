@@ -7,15 +7,15 @@ import HomeSection from "../HomeSection/HomeSection";
 import PortfolioSection from "../PortfolioSection/PortfolioSection";
 
 export default function HomePage() {
-    return(
+    return (
         <>
-        <HomeSection/>
-        <AboutSection/>
-        <ExpertiseSection/>
-        <AchievementSection/>
-        <PortfolioSection/>
-        <ContactSection/>
-        <Footer/>
+            <HomeSection />
+            <AboutSection />
+            <ExpertiseSection />
+            <AchievementSection />
+            <PortfolioSection />
+            <ContactSection/>
+            <Footer/> 
         </>
     )
 }

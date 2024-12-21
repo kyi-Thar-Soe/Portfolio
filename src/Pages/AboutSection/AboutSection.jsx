@@ -3,7 +3,9 @@ import aboutProfile from '../../assets/aboutMe.png';
 
 export default function AboutSection() {
     return (
-        <div className="about-container" id='about'>
+        <div className="home-parent-container">
+            <div className="home-sub-container">
+            <div className="about-container" id='about'>
             <div className='aboutImg-div'>
             <img src={aboutProfile} alt="about"/>
             </div>
@@ -16,6 +18,8 @@ export default function AboutSection() {
             such as E-commerce, Admin Dashboard, Movie App, Education Platform and others.
             As for the Education Platform, I worked together with a team. And, we won the best prize with this project.<br/>Beyond code, I'm a firm believer in the importance of collaboration and communication. I thrive in interdisciplinary teams and enjoy translating complex technical concepts into layman's terms, fostering effective project management and problem-solving. When I'm not immersed in code, you can find me experimenting with new design tools, attending tech meetups, or contributing to open-source projects. I'm excited to tackle new challenges, bring fresh ideas to the table, and create intuitive web experiences that leave a lasting impression.</p>
             </div>
+        </div>
+        </div>
         </div>
         </div>
     )

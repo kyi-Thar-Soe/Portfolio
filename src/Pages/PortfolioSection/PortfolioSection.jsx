@@ -19,7 +19,8 @@ export default function PortfolioSection() {
         navigate(`/details/${id}`)
     };
     return (
-        <div className="portfolio-container" id='portfolio'>
+        <div className="home-sub-container">
+            <div className="portfolio-container" id='portfolio'>
             <h6>recent projects</h6>
             <div className='portfolio-section'>
                 <h3>my portfolio</h3>
@@ -34,7 +35,7 @@ export default function PortfolioSection() {
             <div className='project-div'>
             {cards.map((card,index) => {
                    return (
-                    <Card  key={index} sx={{ maxWidth: 330}}>
+                    <Card  key={index} sx={{ maxWidth: 330}} className='card-width'>
                         <div className='position-relative'>
                         <CardMedia
                         sx={{height: 200}}
@@ -65,6 +66,7 @@ export default function PortfolioSection() {
                     </Card>
                  )
             })}
+            </div>
             </div>
         </div>
     )
