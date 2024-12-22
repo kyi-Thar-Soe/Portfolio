@@ -5,6 +5,7 @@ import ExpertiseSection from "../ExpertiseSection/ExpertiseSection";
 import Footer from "../Footer/Footer";
 import HomeSection from "../HomeSection/HomeSection";
 import PortfolioSection from "../PortfolioSection/PortfolioSection";
+import Project from "../Project/Project";
 
 export default function HomePage() {
     return (
@@ -13,6 +14,7 @@ export default function HomePage() {
             <AboutSection />
             <ExpertiseSection />
             <AchievementSection />
+            <Project/>
             <PortfolioSection />
             <ContactSection/>
             <Footer/> 

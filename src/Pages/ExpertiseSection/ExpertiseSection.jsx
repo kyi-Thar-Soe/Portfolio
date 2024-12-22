@@ -10,6 +10,8 @@ import mui from '../../assets/mui.png';
 import nodeJs from '../../assets/nodeJs.png';
 import git from '../../assets/git.png';
 import figma from '../../assets/figma.png';
+import ps from '../../assets/ps.png';
+import xd from '../../assets/xd.png';
 import wordpress from '../../assets/wordpress.png';
 import CodeIcon from '@mui/icons-material/Code';
 import SupportOutlinedIcon from '@mui/icons-material/SupportOutlined';
@@ -77,16 +79,21 @@ export default function ExpertiseSection() {
                             <BrushOutlinedIcon className='ms-2 my-2'/>
                             </div>
                             <h2>uI & uX web design</h2>
+                            <div className='d-flex justify-content-evenly'>
                             <a href='https://www.figma.com/'><img src={figma} alt='logo'/></a>
+                            <a href='https://www.adobe.com/products/photoshop.html'  className='ps-logo'><img src={ps} alt='logo'/></a>
+                            <a href='https://adobexdplatform.com/'  className='xd-logo'><img src={xd} alt='logo'/></a>
+                            </div>
+                          
                         </CardContent>
                     </Card>
                     <Card className='logo-div' sx={{ minWidth: 200}}>
                         <CardContent className='card-div'>
                             <div className='code-icon'>
-                            <BrushOutlinedIcon className='ms-2 my-2'/>
+                            <CodeIcon className='ms-2 my-2'/>
                             </div>
                             <h2>CMS</h2>
-                            <a href='https://www.figma.com/'><img src={wordpress} alt='logo'/></a>
+                            <a href='https://wordpress.com/'><img src={wordpress} alt='logo'/></a>
                         </CardContent>
                     </Card>
                 </div>

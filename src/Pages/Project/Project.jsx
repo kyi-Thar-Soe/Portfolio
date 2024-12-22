@@ -1,4 +1,3 @@
-import './PortfolioSection.css';
 import { cards } from '../../Data/CardData';
 import {Button} from "@mui/material"
 import Card from '@mui/material/Card';
@@ -9,7 +8,7 @@ import CallMadeIcon from '@mui/icons-material/CallMade';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-export default function PortfolioSection() {
+export default function Project() {
     const [showButton,setShowButton] = useState(null);
     const navigate = useNavigate();
     const handleClick = (id)=>{
@@ -21,21 +20,15 @@ export default function PortfolioSection() {
     return (
         <div className="home-sub-container">
             <div className="portfolio-container" id='portfolio'>
-            <h6>recent projects</h6>
-            <div className='portfolio-section'>
-                <h3>my portfolio</h3>
-                <Button variant="contained" 
-                className='github-btn'
-                sx={{'&:hover' : {background: 'transparent',color: '#191919',border: '1px solid #191919'}}}
-                >
-                <a href='https://github.com/kyi-Thar-Soe'
-                className='gitAcc-link'><span>View My Github</span></a>
-                </Button>
+            <h6>Projects</h6>
+            <div>
+                <h3>Real World Projects</h3>
             </div>
             <div className='project-div'>
             {cards.map((card,index) => {
                    return (
-                    <Card  key={index} sx={{ maxWidth: 330}} className='card-width'>
+                    <a href=''>
+                         <Card  key={index} sx={{ maxWidth: 330}} className='card-width'>
                         <div className='position-relative'>
                         <CardMedia
                         sx={{height: 200}}
@@ -44,19 +37,8 @@ export default function PortfolioSection() {
                         onMouseEnter={()=>handleClick(card.id)}
                         onMouseDown={()=>handleClick(null)}
                         />
-                        {showButton === card.id && (
-                            <Button variant="outlined"
-                            sx={{position: 'absolute',
-                            textTransform: 'capitalize',
-                            top: '50%',
-                            left: '50%',
-                            transform: 'translate(-50%,-50%)'
-                        }}
-                            onClick={()=>goToDetails(card.id)}
-                            >View More</Button>
-                        )}
                         </div>
-                        <CardContent className='card-content'>
+                        {/* <CardContent className='card-content'>
                         <Typography gutterBottom variant="h6" component="div">
                         {card.title}
                         </Typography>
@@ -64,8 +46,9 @@ export default function PortfolioSection() {
                             {card.link}
                             <span><CallMadeIcon className='fs-5 ms-1'/></span>
                         </a>
-                        </CardContent>
+                        </CardContent> */}
                     </Card>
+                    </a>
                  )
             })}
             </div>

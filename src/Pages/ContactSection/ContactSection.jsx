@@ -60,7 +60,7 @@ function ContactSection() {
           <h6>Get in Touch</h6>
           <h3>Contact Me</h3>
         </div>
-        <div>
+        <div className='form-div'>
           <form ref={form} onSubmit={handleSubmit(onSubmit)}>
             <label className="mb-2">Your Name</label>
             <input
@@ -84,7 +84,7 @@ function ContactSection() {
             <br />
             <TextField
               name="message"
-              sx={{ width: "320px", marginBottom: '30px' }}
+              sx={{ width: "100%", marginBottom: '30px' }}
               id="outlined-multiline-static"
               placeholder="Type your message..."
               multiline
@@ -114,9 +114,6 @@ function ContactSection() {
             </Modal>
           </form>
         </div>
-      </div>
-      <div className="contact-img">
-        <img src={contact} alt="contact-img" />
       </div>
     </div>
       </div>
