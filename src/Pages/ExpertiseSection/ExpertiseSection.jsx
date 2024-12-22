@@ -2,6 +2,7 @@ import './ExpertiseSection.css';
 import html from '../../assets/html.png';
 import css from '../../assets/css.png';
 import javascript from '../../assets/javascript.png';
+import jquery  from '../../assets/jquery.png';
 import react from '../../assets/react.png';
 import tailwind from '../../assets/tailwind.png';
 import bootstrap from '../../assets/bootstrap.png';
@@ -9,6 +10,7 @@ import mui from '../../assets/mui.png';
 import nodeJs from '../../assets/nodeJs.png';
 import git from '../../assets/git.png';
 import figma from '../../assets/figma.png';
+import wordpress from '../../assets/wordpress.png';
 import CodeIcon from '@mui/icons-material/Code';
 import SupportOutlinedIcon from '@mui/icons-material/SupportOutlined';
 import SettingsSuggestOutlinedIcon from '@mui/icons-material/SettingsSuggestOutlined';
@@ -33,6 +35,7 @@ export default function ExpertiseSection() {
                             <a href='https://html.com'><img src={html} alt='logo'/></a>
                             <a href='https://web.dev/learn/css'><img src={css} alt='logo' style={{width: '50px', height: '40px', marginTop: '-6px'}}/></a>
                             <a href='https://www.javascript.com/'><img src={javascript} alt='logo'/></a>
+                            <a href='https://jquery.com/'><img src={jquery} alt='logo'/></a>
                             </div>
                         </CardContent>
                     </Card>
@@ -75,6 +78,15 @@ export default function ExpertiseSection() {
                             </div>
                             <h2>uI & uX web design</h2>
                             <a href='https://www.figma.com/'><img src={figma} alt='logo'/></a>
+                        </CardContent>
+                    </Card>
+                    <Card className='logo-div' sx={{ minWidth: 200}}>
+                        <CardContent className='card-div'>
+                            <div className='code-icon'>
+                            <BrushOutlinedIcon className='ms-2 my-2'/>
+                            </div>
+                            <h2>CMS</h2>
+                            <a href='https://www.figma.com/'><img src={wordpress} alt='logo'/></a>
                         </CardContent>
                     </Card>
                 </div>

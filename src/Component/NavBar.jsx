@@ -46,7 +46,9 @@ function Navbar() {
     <AppBar position="sticky" sx={{background: '#f5f5f5',top: "0"}} elevation={0}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <img src={logo} alt='brand-logo' sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <a href="/">
+          <img src={logo} alt='brand-logo' sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} className="logo-img"/>
+          </a>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"

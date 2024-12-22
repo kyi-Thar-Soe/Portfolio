@@ -15,10 +15,10 @@
 }
 .expertise-section{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 43px;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 .expertise-section h2{
     font-size: 16px;
