@@ -1,3 +1,14 @@
 .pData:hover {
   opacity: 0.8;
 }
+.project-h {
+  height: 200px;
+}
+@media screen and (max-width: 1023px) {
+  .project-h {
+    height: 250px;
+  }
+  .pImage {
+    height: 100% !important;
+  }
+}

@@ -16,7 +16,7 @@ export default function Project() {
             return (
               <a href={data.path} target="_blank" className="pData">
                 <Card key={index} sx={{ maxWidth: 330 }} className="card-width">
-                  <div className="position-relative">
+                  <div className="position-relative project-h">
                     <CardMedia
                       sx={{ height: 200 }}
                       image={data.image}
