@@ -1,54 +1,32 @@
-.aboutImg-div{
-    margin: 5rem 2rem 0px 4rem;
+.aboutImg-div {
+  margin: 5rem 2rem 0px 4rem;
 }
-.aboutImg-div img{
-    width: 300px;
-    height: 300px;
+.aboutImg-div img {
+  width: 300px;
+  height: 300px;
 }
-.about-info{
-    padding: 5rem 0 5rem;
+.about-info {
+  padding: 80px 0;
 }
-.about-info h6{
-    font-weight: 600;
-    text-align: center;
+.about-info h6 {
+  font-weight: 600;
+  text-align: center;
 }
-.about-info h3{
-    font-weight: 600;
-    margin-bottom: 35px;
-    text-align: center;
+.about-info h3 {
+  font-weight: 600;
+  margin-bottom: 35px;
+  text-align: center;
 }
-.para{
-    max-width: 880px;
-    margin: 0 auto;
+.para {
+  max-width: 880px;
+  margin: 0 auto;
 }
-.about-info p{
-    font-size: 16px;
-    text-align: justify;
-    
+.about-info p {
+  font-size: 16px;
+  text-align: justify;
 }
-/*Tablet*/
-@media screen and (min-width: 769px) and (max-width: 1023px){
-    .aboutImg-div{
-        display: none;
-    }
-    .about-info{
-        padding-left: 30px;
-    }
-}
-/*mobile*/
-@media screen and (max-width: 768px){
-    .aboutImg-div{
-        display: none;
-    }
-    .about-info h3{
-        font-size: 24px;
-    }
-    .about-info p{
-        font-size: 14px;
-    }
-}
-@media screen and (max-width: 620px){
-    .about-info{
-        padding-left: 0;
-    }
+@media screen and (max-width: 768px) {
+  .about-info {
+    padding: 40px 0;
+  }
 }

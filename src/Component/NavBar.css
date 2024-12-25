@@ -1,32 +1,32 @@
-.logo-img{
-    cursor: pointer;
+.logo-img {
+  cursor: pointer;
 }
 
-img{
-    width: 25px;
-    height: 25px;
+img {
+  width: 25px;
+  height: 25px;
 }
-.active{
-    color: #226ebd;
-    background-color: red;
+.active {
+  color: #226ebd;
+  background-color: red;
 }
-/*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    img{
-        display: none;
-    }
-    .contact-btn span{
-        font-size: 14px;
-    }
-    
+.navLinkSp {
+  text-decoration: none;
+  color: #000;
 }
-/*mobile*/
-@media screen and (max-width: 768px){
-    img{
-        display: none;
-    }
-    .contact-btn span{
-        font-size: 12px;
-        
-    }
+.navLinkSp:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 900px) {
+  .logo-img {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .css-19r6kue-MuiContainer-root {
+    padding: 0 20px !important;
+  }
+  .css-kf45sl-MuiButtonBase-root-MuiIconButton-root {
+    padding: 0 !important;
+  }
 }

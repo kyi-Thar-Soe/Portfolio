@@ -1,94 +1,182 @@
-.expertise-container{
-    padding: 100px 30px;
+.expertise-container {
+  padding: 100px 30px;
 }
-.expertise-container h6{
-    font-weight: 600;
-    text-transform: capitalize;
+.expertise-container h6 {
+  font-weight: 600;
+  text-transform: capitalize;
 }
-.expertise-container h3{
-    font-weight: 600;
-    text-transform: capitalize;
+.expertise-container h3 {
+  font-weight: 600;
+  text-transform: capitalize;
 }
-.expertise-container p{
-    font-size: 16px;
-    opacity: 0.8;
+.expertise-container p {
+  font-size: 16px;
+  opacity: 0.8;
 }
-.expertise-section{
-    display: flex;
-    align-items: center;
-    gap: 43px;
-    flex-wrap: wrap;
-    margin-top: 50px;
+.expertise-section {
+  display: flex;
+  align-items: center;
+  gap: 43px;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
-.expertise-section h2{
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 600;
-    margin-bottom: 20px;
+.expertise-section h2 {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
-.logo-div{
-    width: 220px;
-    background-color: #f5fcff !important;
+.logo-div {
+  width: 220px;
+  background-color: #f5fcff !important;
 }
-.logo-div img{
-    width: 30px;
-    height: 30px;
+.logo-div img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
 }
-.card-div{
-    margin-top: 10px;
+.card-div {
+  margin-top: 10px;
 }
-.code-icon{
-    width: 40px;
-    background-color: #fff;
-    color: #79c2e1;
-    border-radius: 4px;
-    box-shadow: 0px 0px 2px #cbcbcb;
-    margin-bottom: 15px;
+.code-icon {
+  width: 40px;
+  background-color: #fff;
+  color: #79c2e1;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px #cbcbcb;
+  margin-bottom: 15px;
 }
-.logo-div .ps-logo{
-    width: 25px;
-    height: 25px;
+.logo-div .ps-logo {
+  width: 25px;
+  height: 25px;
 }
-.logo-div .ps-logo img{
-    width: 100%;
-    height: 100%;
-}
-
-.logo-div .xd-logo{
-    width: 30px;
-    height: 25px;
+.logo-div .ps-logo img {
+  width: 100%;
+  height: 100%;
 }
 
-.logo-div .xd-logo img{
+.logo-div .xd-logo {
+  width: 30px;
+  height: 25px;
+}
+
+.logo-div .xd-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.css-logo {
+  width: 50px;
+  height: 40px;
+  margin-top: -6px;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1110px) {
+  .expertise-section {
+    max-width: 746px;
     width: 100%;
-    height: 100%;
+    margin: 50px auto 0;
+  }
 }
-/*Tablet*/
-@media screen and (min-width: 769px) and (max-width: 1023px){
-    .logo-div img{
-        display: inline;
-    }
+
+@media screen and (max-width: 846px) {
+  .expertise-section {
+    max-width: 720px;
+    width: 100%;
+    gap: 30px;
+  }
 }
-/*mobile*/
-@media  screen and (max-width: 768px) {
-    .expertise-container{
-        padding: 80px 0;
-    }
-    .expertise-container h6{
-        font-size: 16px;
-    }
-    .expertise-container h3{
-        font-size: 24px;
-    }
-    .expertise-container p,.expertise-section h2{
-       font-size: 14px;
-    }
-    .logo-div{
-       min-width: 150px !important; 
-    }
-    .logo-div img{
-        display: inline;
-        width: 25px;
-        height: 25px;
-    }
+
+@media screen and (max-width: 820px) {
+  .expertise-section {
+    max-width: 470px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .expertise-container {
+    padding: 80px 0px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .expertise-section {
+    max-width: 420px;
+    width: 100%;
+    gap: 20px;
+  }
+  .logo-div {
+    width: 200px;
+  }
+  .card-div {
+    padding: 10px 10px 15px 10px !important;
+  }
+  .logo-div img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .css-logo {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 0;
+  }
+
+  .logo-div .ps-logo {
+    width: 20px;
+    height: 20px;
+  }
+
+  .logo-div .xd-logo {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .expertise-section {
+    max-width: 320px;
+    width: 100%;
+  }
+  .expertise-section h2 {
+    font-size: 12px;
+  }
+  .logo-div,
+  .card-div {
+    max-width: 150px;
+    width: 100%;
+  }
+
+  .css-ablsu8-MuiPaper-root-MuiCard-root {
+    min-width: unset !important;
+  }
+
+  .icon-div {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .expertise-section {
+    max-width: 220px;
+    width: 100%;
+  }
+  .expertise-section h2 {
+    font-size: 14px;
+  }
+  .logo-div,
+  .card-div {
+    max-width: 220px;
+    width: 100%;
+  }
+  .icon-div {
+    gap: 20px;
+  }
 }

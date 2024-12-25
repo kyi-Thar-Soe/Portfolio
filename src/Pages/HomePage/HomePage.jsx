@@ -8,16 +8,16 @@ import PortfolioSection from "../PortfolioSection/PortfolioSection";
 import Project from "../Project/Project";
 
 export default function HomePage() {
-    return (
-        <>
-            <HomeSection />
-            <AboutSection />
-            <ExpertiseSection />
-            <AchievementSection />
-            <Project/>
-            <PortfolioSection />
-            <ContactSection/>
-            <Footer/> 
-        </>
-    )
+  return (
+    <>
+      <HomeSection />
+      <AboutSection />
+      <ExpertiseSection />
+      <AchievementSection />
+      <Project />
+      <PortfolioSection />
+      <ContactSection />
+      <Footer />
+    </>
+  );
 }
