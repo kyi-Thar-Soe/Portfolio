@@ -21,14 +21,17 @@
   padding: 20px 0;
 }
 .footer-link-div {
-  padding: 0 !important;
   display: unset !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: fit-content;
+  height: fit-content;
+  color: #191919 !important;
+  background-color: transparent !important;
 }
-.footer-link {
-  font-size: 14px;
-  font-weight: 500;
-  text-decoration: none;
-  color: #191919;
+.footer-link:hover {
+  color: #226ebd;
+  background-color: transparent !important;
 }
 .ph-num,
 .email-txt {
