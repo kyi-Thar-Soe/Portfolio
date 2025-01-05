@@ -17,6 +17,11 @@ img {
 .navLinkSp:hover {
   opacity: 0.8;
 }
+
+.css-17dxyje {
+  justify-content: end;
+}
+
 @media screen and (max-width: 900px) {
   .logo-img {
     display: none;

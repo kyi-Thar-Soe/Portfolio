@@ -14,16 +14,20 @@ import logo from "../assets/brand-logo.png";
 
 const pages = [
   {
-    name: "Home",
+    name: "HOME",
     path: "#home",
   },
   {
-    name: "About Me",
+    name: "ABOUT",
     path: "#about",
   },
   {
-    name: "Portfolio",
+    name: "PROJECTS",
     path: "#portfolio",
+  },
+  {
+    name: "CONTACT",
+    path: "#contactFoot",
   },
 ];
 
@@ -114,7 +118,7 @@ function Navbar() {
             sx={{
               flexGrow: 1,
               display: { xs: "none", md: "flex" },
-              justifyContent: "center",
+              justifyContent: "end",
               gap: "70px",
             }}
           >
@@ -135,19 +139,6 @@ function Navbar() {
               </Button>
             ))}
           </Box>
-          <Button
-            variant="outlined"
-            href="#contact"
-            className="contact-btn"
-            sx={{
-              textTransform: "capitalize",
-              color: "#191919",
-              border: "1px solid #191919",
-              ":hover": { background: "#226ebd", color: "#f5f5f5" },
-            }}
-          >
-            <span>Contact Me</span>
-          </Button>
         </Toolbar>
       </Container>
     </AppBar>

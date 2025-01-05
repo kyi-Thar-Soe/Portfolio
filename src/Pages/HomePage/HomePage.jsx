@@ -16,7 +16,6 @@ export default function HomePage() {
       <AchievementSection />
       <Project />
       <PortfolioSection />
-      <ContactSection />
       <Footer />
     </>
   );
