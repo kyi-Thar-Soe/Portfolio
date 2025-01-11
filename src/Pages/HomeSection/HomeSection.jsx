@@ -13,8 +13,10 @@ export default function HomeSection() {
               <span>front-End</span> web developer
             </h2>
             <p>
-              I am someone who is passionate about creating websites and web
-              applications that are desirable, feasible and viable.
+              I am someone who is passionate about designing and developing
+              websites and web applications that are not only user-centric and
+              aesthetically appealing but also technically feasible and
+              strategically viable.
             </p>
           </div>
           <div className="img-div sec-col-div">

@@ -10,33 +10,37 @@ export default function AboutSection() {
             <h3>About Me</h3>
             <div className="para">
               <p>
-                Hello,my name is Kyi Thar Soe. I'm 23 years old. My education
+                Hello, my name is Kyi Thar Soe. I'm 23 years old. My education
                 background is that I studied IT major at Mawlamyine University
                 of Technology.
               </p>
               <p>
-                I have 2 years experience in web development field. And, I have
-                1 year of experience working as a front-end web developer at a
-                japanese company, a foreign company. I have a deep understanding
-                of HTML, CSS, JavaScript, JQuery and Wordpress, and I'm skilled
-                in various modern frameworks and libraries like React, Bootstrap
-                and Tailwind CSS. And, I'm familiar with Restfuls API and Git in
-                version control system. I have basic knowledge in Node.js. In
-                addition, I know about Design System and UX Research related to
-                aspects of Web Design. Then, I have certificates and achievement
-                related to Web Development, React and UI/UX Web Design. I have
-                done projects such as E-commerce,Admin Dashboard,Movie App,
-                Education Platform and Real World projects. As for the Education
-                Platform, I worked together with a team. And, we won the best
-                prize with this project.
+                I bring 2 years of experience in the field of web development,
+                including 1 year as a front-end web developer at a Japanese
+                company. My technical expertise encompasses a strong
+                understanding of HTML, CSS, JavaScript, jQuery, and WordPress.
+                Additionally, I am proficient in modern frameworks and libraries
+                such as React, Bootstrap, and Tailwind CSS. I am also
+                experienced with RESTful APIs and Git for version control and
+                have foundational knowledge of Node.js. Beyond coding, I am
+                well-versed in design systems and UX research related to web
+                design. I hold certifications and achievements in web
+                development, React, and UI/UX web design. My portfolio includes
+                diverse projects, such as E-commerce platforms, admin
+                dashboards, movie applications, education platforms, and other
+                real-world projects. Notably, as part of a team working on an
+                Education Platform project, we were honored with the best prize
+                for our efforts.
               </p>
               <p>
-                Beyond code, I'm a firm believer in the importance of
-                collaboration and communication. I'm excited to tackle new
-                challenges, bring fresh ideas to the table, and create intuitive
-                web experiences that leave a lasting impression.
+                And, I strongly value teamwork and open communication. I look
+                forward to embracing new challenges, contributing innovative
+                ideas, and crafting web experiences that resonate with users and
+                leave a lasting impact. I am passionate about delivering
+                high-quality, user-focused web experiences and continuously
+                improving my skills to excel in the ever-evolving tech
+                landscape.
               </p>
-              {/* <p> I thrive in interdisciplinary teams and enjoy translating complex technical concepts into layman's terms, fostering effective project management and problem-solving. When I'm not immersed in code, you can find me experimenting with new design tools, attending tech meetups, or contributing to open-source projects.</p> */}
             </div>
           </div>
         </div>

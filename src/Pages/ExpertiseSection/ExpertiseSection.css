@@ -85,7 +85,7 @@
   }
 }
 
-@media screen and (max-width: 846px) {
+@media screen and (max-width: 870px) {
   .expertise-section {
     max-width: 720px;
     width: 100%;
@@ -93,7 +93,7 @@
   }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 840px) {
   .expertise-section {
     max-width: 470px;
     width: 100%;
@@ -142,17 +142,12 @@
 }
 
 @media screen and (max-width: 460px) {
-  .expertise-section {
+  /* .expertise-section {
     max-width: 320px;
     width: 100%;
-  }
+  } */
   .expertise-section h2 {
     font-size: 12px;
-  }
-  .logo-div,
-  .card-div {
-    max-width: 150px;
-    width: 100%;
   }
 
   .css-ablsu8-MuiPaper-root-MuiCard-root {
@@ -165,10 +160,10 @@
 }
 
 @media screen and (max-width: 360px) {
-  .expertise-section {
+  /* .expertise-section {
     max-width: 220px;
     width: 100%;
-  }
+  } */
   .expertise-section h2 {
     font-size: 14px;
   }
