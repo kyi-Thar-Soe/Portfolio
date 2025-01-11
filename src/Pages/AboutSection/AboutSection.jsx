@@ -31,9 +31,9 @@ export default function AboutSection() {
                 prize with this project.
               </p>
               <p>
-                Beyond code,I'm a firm believer in the importance of
-                collaboration and communication.I'm excited to tackle new
-                challenges,bring fresh ideas to the table,and create intuitive
+                Beyond code, I'm a firm believer in the importance of
+                collaboration and communication. I'm excited to tackle new
+                challenges, bring fresh ideas to the table, and create intuitive
                 web experiences that leave a lasting impression.
               </p>
               {/* <p> I thrive in interdisciplinary teams and enjoy translating complex technical concepts into layman's terms, fostering effective project management and problem-solving. When I'm not immersed in code, you can find me experimenting with new design tools, attending tech meetups, or contributing to open-source projects.</p> */}

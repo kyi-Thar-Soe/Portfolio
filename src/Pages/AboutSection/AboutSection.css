@@ -24,7 +24,6 @@
 }
 .about-info p {
   font-size: 16px;
-  text-align: justify;
   font-family: "Noto Sans", serif;
 }
 @media screen and (max-width: 768px) {
