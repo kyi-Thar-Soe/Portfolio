@@ -62,7 +62,13 @@ function Navbar() {
               className="logo-img"
             />
           </a>
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "flex", md: "none" },
+              justifyContent: "end",
+            }}
+          >
             <IconButton
               size="large"
               aria-label="account of current user"
