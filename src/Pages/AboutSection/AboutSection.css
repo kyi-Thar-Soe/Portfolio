@@ -21,13 +21,21 @@
 .para {
   max-width: 880px;
   margin: 0 auto;
+  text-align: justify;
 }
-.about-info p {
+.para p {
   font-size: 16px;
-  font-family: "Noto Sans", serif;
+  text-align: justify;
+  hyphens: auto;
+  word-spacing: normal;
+  line-height: 1.6;
 }
 @media screen and (max-width: 768px) {
   .about-info {
     padding: 40px 0;
+  }
+  .para p {
+    text-align: justify;
+    word-break: break-word;
   }
 }
