@@ -160,17 +160,8 @@
 }
 
 @media screen and (max-width: 360px) {
-  /* .expertise-section {
-    max-width: 220px;
-    width: 100%;
-  } */
   .expertise-section h2 {
     font-size: 14px;
-  }
-  .logo-div,
-  .card-div {
-    max-width: 220px;
-    width: 100%;
   }
   .icon-div {
     gap: 20px;

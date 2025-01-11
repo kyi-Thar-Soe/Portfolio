@@ -1,8 +1,13 @@
 import "./HomeSection.css";
 import profile from "../../assets/profile.jpg";
-import { Button } from "@mui/material";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function HomeSection() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="home-parent-container">
       <div className="home-sub-container">
@@ -19,7 +24,11 @@ export default function HomeSection() {
               strategically viable.
             </p>
           </div>
-          <div className="img-div sec-col-div">
+          <div
+            className="img-div sec-col-div"
+            data-aos="zoom-in"
+            data-aos-duration="7500"
+          >
             <img src={profile} alt="profile" />
           </div>
         </div>

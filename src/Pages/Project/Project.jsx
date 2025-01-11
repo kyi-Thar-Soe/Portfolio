@@ -2,8 +2,14 @@ import { projectData } from "../../Data/ProjectData";
 import "./Project.css";
 import Card from "@mui/material/Card";
 import { CardMedia } from "@mui/material";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Project() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="home-sub-container">
       <div className="portfolio-container" id="portfolio">
@@ -15,7 +21,13 @@ export default function Project() {
           {projectData.map((data, index) => {
             return (
               <a href={data.path} target="_blank" className="pData">
-                <Card key={index} sx={{ maxWidth: 330 }} className="card-width">
+                <Card
+                  key={index}
+                  sx={{ maxWidth: 330 }}
+                  className="card-width"
+                  data-aos="zoom-in"
+                  data-aos-duration="7500"
+                >
                   <div className="position-relative project-h">
                     <CardMedia
                       sx={{ height: 200 }}

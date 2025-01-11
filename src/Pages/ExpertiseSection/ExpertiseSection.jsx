@@ -18,8 +18,14 @@ import SupportOutlinedIcon from "@mui/icons-material/SupportOutlined";
 import SettingsSuggestOutlinedIcon from "@mui/icons-material/SettingsSuggestOutlined";
 import BrushOutlinedIcon from "@mui/icons-material/BrushOutlined";
 import { Card, CardContent } from "@mui/material";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function ExpertiseSection() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="home-sub-container">
       <div className="expertise-container">
@@ -27,7 +33,11 @@ export default function ExpertiseSection() {
         <h3>my expertise</h3>
         <p>The skills, tools and technologies I am really good at:</p>
         <div className="expertise-section">
-          <Card className="logo-div">
+          <Card
+            className="logo-div"
+            data-aos="fade-up"
+            data-aos-duration="7500"
+          >
             <CardContent className="card-div">
               <div className="code-icon">
                 <CodeIcon className="ms-2 my-2" />
@@ -49,7 +59,11 @@ export default function ExpertiseSection() {
               </div>
             </CardContent>
           </Card>
-          <Card className="logo-div" sx={{ minWidth: 200 }}>
+          <Card
+            className="logo-div"
+            data-aos="fade-up"
+            data-aos-duration="7500"
+          >
             <CardContent className="card-div">
               <div className="code-icon">
                 <SupportOutlinedIcon className="ms-2 my-2" />
@@ -71,7 +85,11 @@ export default function ExpertiseSection() {
               </div>
             </CardContent>
           </Card>
-          <Card className="logo-div" sx={{ minWidth: 200 }}>
+          <Card
+            className="logo-div"
+            data-aos="fade-up"
+            data-aos-duration="7500"
+          >
             <CardContent className="card-div">
               <div className="code-icon">
                 <CodeIcon className="ms-2 my-2" />
@@ -82,7 +100,11 @@ export default function ExpertiseSection() {
               </a>
             </CardContent>
           </Card>
-          <Card className="logo-div" sx={{ minWidth: 200 }}>
+          <Card
+            className="logo-div"
+            data-aos="fade-up"
+            data-aos-duration="7500"
+          >
             <CardContent className="card-div">
               <div className="code-icon">
                 <SettingsSuggestOutlinedIcon className="ms-2 my-2" />
@@ -93,7 +115,11 @@ export default function ExpertiseSection() {
               </a>
             </CardContent>
           </Card>
-          <Card className="logo-div" sx={{ minWidth: 200 }}>
+          <Card
+            className="logo-div"
+            data-aos="fade-up"
+            data-aos-duration="7500"
+          >
             <CardContent className="card-div">
               <div className="code-icon">
                 <BrushOutlinedIcon className="ms-2 my-2" />
@@ -115,7 +141,11 @@ export default function ExpertiseSection() {
               </div>
             </CardContent>
           </Card>
-          <Card className="logo-div" sx={{ minWidth: 200 }}>
+          <Card
+            className="logo-div"
+            data-aos="fade-up"
+            data-aos-duration="7500"
+          >
             <CardContent className="card-div">
               <div className="code-icon">
                 <CodeIcon className="ms-2 my-2" />
